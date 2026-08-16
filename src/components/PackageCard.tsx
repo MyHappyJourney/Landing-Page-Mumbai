@@ -1,6 +1,6 @@
 import React from 'react';
 import { PackageItem } from '../types';
-import { ArrowRight, Star, Clock, Zap } from 'lucide-react';
+import { ArrowRight, Star, Zap } from 'lucide-react';
 import { WHATSAPP_NUMBER } from '../data/tourData';
 import { WhatsAppIcon } from './WhatsAppIcon';
 
@@ -84,23 +84,11 @@ export const PackageCard: React.FC<PackageCardProps> = ({ pkg, onViewDetails, on
 
         {/* Card Footer: Price & CTA */}
         <div className="pt-3 border-t border-gray-100">
-          
-          {/* Fast Response Guarantee Pill */}
-          <div className="flex items-center justify-between gap-1 text-[11px] font-extrabold text-emerald-800 bg-emerald-50 px-2.5 py-1.5 rounded-lg border border-emerald-200/80 mb-3">
-            <span className="flex items-center gap-1.5">
-              <Clock className="w-3.5 h-3.5 text-emerald-600 animate-pulse" />
-              <span>Get quote in 10 minutes</span>
-            </span>
-            <span className="text-[10px] font-black uppercase text-emerald-700 bg-white px-1.5 py-0.5 rounded border border-emerald-200">
-              ⚡ Instant
-            </span>
-          </div>
-
           <div className="flex items-center justify-between mb-3 py-0.5">
             <div>
               <p className="text-[10px] uppercase font-bold text-gray-400">Package Pricing</p>
-              <span className="font-black text-lg sm:text-xl text-[#0B3996]">
-                GET BEST QUOTE →
+              <span className="font-extrabold text-sm sm:text-base text-[#0B3996]">
+                Special price for Mumbaikars
               </span>
             </div>
             <span className="text-[10px] text-[#0B3996] font-extrabold bg-[#EBF2FF] px-2 py-1 rounded">
@@ -122,7 +110,7 @@ export const PackageCard: React.FC<PackageCardProps> = ({ pkg, onViewDetails, on
                   pkg.isPopular ? 'bg-[#FF4B00] hover:bg-[#e04200]' : 'bg-[#0B3996] hover:bg-[#082b75]'
                 }`}
               >
-                <span>GET BEST QUOTE</span>
+                <span>Get Best quote in 10 mins</span>
                 <ArrowRight className="w-3.5 h-3.5" />
               </button>
             </div>

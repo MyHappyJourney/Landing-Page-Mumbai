@@ -493,7 +493,7 @@ export const QuoteModal: React.FC<QuoteModalProps> = ({
                     ) : (
                       <>
                         <Send className="w-4 h-4" />
-                        <span>GET INSTANT QUOTE</span>
+                        <span>GET INSTANT QUOTE IN 10 MINS</span>
                       </>
                     )}
                   </button>

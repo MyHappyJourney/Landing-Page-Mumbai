@@ -230,34 +230,50 @@ export const WHY_BOOK_ITEMS = [
 export const REVIEWS: Review[] = [
   {
     id: "rev-1",
-    name: "Priya S.",
-    location: "Bangalore",
+    name: "Priya Sawant",
+    location: "Borivali, Mumbai",
     rating: 5,
-    comment: "Excellent arrangement by My Happy Journey. Hotels and houseboat were amazing. Highly recommended!",
+    comment: "Excellent arrangement by MyHappyJourney! We booked our Kerala family trip from Mumbai. Hotels in Munnar and the Alleppey houseboat were breathtaking. Highly recommended!",
     date: "2 weeks ago"
   },
   {
     id: "rev-2",
-    name: "Rahul M.",
-    location: "Chennai",
+    name: "Rahul Mehta",
+    location: "Andheri West, Mumbai",
     rating: 5,
-    comment: "Very professional team and well planned itinerary. We had a memorable family trip.",
+    comment: "Very professional team and perfectly planned itinerary. Our private cab driver was courteous and knew all the best scenic spots. Great value compared to OTAs!",
     date: "1 month ago"
   },
   {
     id: "rev-3",
-    name: "Sunil K.",
-    location: "Hyderabad",
+    name: "सचिन पाटील (Sachin Patil)",
+    location: "ठाणे, मुंबई (Thane, Mumbai)",
     rating: 5,
-    comment: "This was our 3rd trip with them. Always the best service and support. Thank you!",
-    date: "1 month ago"
+    comment: "माय हॅपी जर्नी सोबत आमची केरळची सहल अप्रतिम झाली! मुन्नारमधील चहाचे मळे आणि अलेप्पीची हाऊसबोट खूपच सुंदर होती. ड्रायव्हर खूप नम्र होता आणि हॉटेल्स उत्तम होती. मुंबईकरांसाठी सर्वात विश्वासू पार्टनर!",
+    date: "3 weeks ago"
   },
   {
     id: "rev-4",
-    name: "Ananya Sharma",
-    location: "Mumbai",
+    name: "स्नेहा देशमुख (Sneha Deshmukh)",
+    location: "दादर, मुंबई (Dadar, Mumbai)",
     rating: 5,
-    comment: "The Alleppey houseboat was clean, food was superb, and our driver Prasad was super polite. 10/10 service!",
+    comment: "आम्ही संपूर्ण कुटुंबासोबत ६ रात्री ७ दिवसांची केरळ ट्रिप केली. जेवण, प्रायव्हेट गाडी आणि नियोजन १००% उत्तम होते. कुठेही लपलेले चार्जेस नाहीत. मनापासून धन्यवाद!",
+    date: "1 month ago"
+  },
+  {
+    id: "rev-5",
+    name: "Ananya Sharma",
+    location: "Bandra, Mumbai",
+    rating: 5,
+    comment: "The Alleppey private houseboat was clean, traditional Kerala sadhya was delicious, and 24x7 support from Mumbai team made our trip completely stress-free. 10/10 service!",
+    date: "2 months ago"
+  },
+  {
+    id: "rev-6",
+    name: "Vikram Joshi",
+    location: "Mulund, Mumbai",
+    rating: 5,
+    comment: "From airport pickup at Cochin to drop at Trivandrum, everything ran like clockwork. Transparent pricing with zero hidden costs. Will definitely book again for our next holiday.",
     date: "2 months ago"
   }
 ];

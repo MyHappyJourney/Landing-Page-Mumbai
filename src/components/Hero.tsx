@@ -31,17 +31,22 @@ export const Hero: React.FC<HeroProps> = ({ onQuoteClick }) => {
           
           {/* Left Column: Heading & Route Details */}
           <div className="lg:col-span-7 space-y-4 sm:space-y-6 text-left">
-            {/* Tagline Badge */}
-            <div className="inline-flex items-center gap-2 bg-[#0B3996]/90 backdrop-blur-md text-white text-xs sm:text-sm font-extrabold px-3.5 py-1.5 rounded-full border border-blue-400/30 shadow-md">
-              <Sparkles className="w-3.5 h-3.5 text-yellow-300 animate-pulse" />
-              <span>EXPLORE GOD'S OWN COUNTRY 🌴</span>
+            {/* Tagline Badges */}
+            <div className="flex flex-wrap items-center gap-2">
+              <div className="inline-flex items-center gap-2 bg-[#0B3996]/90 backdrop-blur-md text-white text-xs sm:text-sm font-extrabold px-3.5 py-1.5 rounded-full border border-blue-400/30 shadow-md">
+                <Sparkles className="w-3.5 h-3.5 text-yellow-300 animate-pulse" />
+                <span>EXPLORE GOD'S OWN COUNTRY 🌴</span>
+              </div>
+              <div className="inline-flex items-center gap-1.5 bg-amber-500/95 backdrop-blur-md text-gray-950 text-xs sm:text-sm font-extrabold px-3.5 py-1.5 rounded-full border border-amber-300/40 shadow-md">
+                <span>Weekend-Friendly Kerala Getaway</span>
+              </div>
             </div>
 
             {/* Main Title */}
             <div>
               <h1 className="text-3xl sm:text-5xl lg:text-6xl font-black tracking-tight leading-tight text-white drop-shadow-md">
                 KERALA <br />
-                <span className="text-amber-400">TOUR PACKAGES</span>
+                <span className="text-amber-400">TOUR PACKAGES FROM MUMBAI</span>
               </h1>
             </div>
 
@@ -73,19 +78,23 @@ export const Hero: React.FC<HeroProps> = ({ onQuoteClick }) => {
               </div>
             </div>
 
-            {/* Desktop quick highlights */}
-            <div className="hidden sm:flex items-center gap-6 text-xs sm:text-sm text-gray-200 pt-2">
+            {/* Quick highlights / bottom chips */}
+            <div className="flex flex-wrap items-center gap-x-5 sm:gap-x-6 gap-y-2 text-xs sm:text-sm text-gray-200 pt-2">
               <div className="flex items-center gap-1.5">
-                <CheckCircle2 className="w-4 h-4 text-[#0B3996] fill-white" />
+                <CheckCircle2 className="w-4 h-4 text-amber-400 fill-white/10" />
                 <span>Zero Hidden Fees</span>
               </div>
               <div className="flex items-center gap-1.5">
-                <CheckCircle2 className="w-4 h-4 text-[#0B3996] fill-white" />
+                <CheckCircle2 className="w-4 h-4 text-amber-400 fill-white/10" />
                 <span>100% Customized Trips</span>
               </div>
               <div className="flex items-center gap-1.5">
-                <CheckCircle2 className="w-4 h-4 text-[#0B3996] fill-white" />
+                <CheckCircle2 className="w-4 h-4 text-amber-400 fill-white/10" />
                 <span>Dedicated Driver</span>
+              </div>
+              <div className="flex items-center gap-1.5">
+                <CheckCircle2 className="w-4 h-4 text-amber-400 fill-white/10" />
+                <span>Cheaper Than OTA Pricing</span>
               </div>
             </div>
           </div>
@@ -144,7 +153,7 @@ export const Hero: React.FC<HeroProps> = ({ onQuoteClick }) => {
                   className="w-full h-12 sm:h-13 bg-[#FF4B00] hover:bg-[#e04200] text-white font-extrabold text-sm sm:text-base rounded-xl shadow-lg hover:shadow-xl transition-all flex items-center justify-center gap-2 group cursor-pointer focus:outline-none"
                   id="hero-instant-quote-btn"
                 >
-                  <span>GET BEST QUOTE</span>
+                  <span>GET BEST QUOTE IN 10 MINS</span>
                   <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
                 </button>
 

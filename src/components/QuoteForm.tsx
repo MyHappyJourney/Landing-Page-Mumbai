@@ -450,7 +450,7 @@ export const QuoteForm: React.FC<QuoteFormProps> = ({ preselectedPackageId }) =>
                     ) : (
                       <>
                         <Send className="w-5 h-5" />
-                        <span>GET INSTANT QUOTE</span>
+                        <span>GET INSTANT QUOTE IN 10 MINS</span>
                       </>
                     )}
                   </button>

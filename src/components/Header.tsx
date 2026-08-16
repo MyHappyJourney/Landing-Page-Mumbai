@@ -32,7 +32,7 @@ export const Header: React.FC<HeaderProps> = ({ onQuoteClick, onPackageSelect })
         </a>
 
         {/* Desktop Trust & Stats (Hidden on Mobile) */}
-        <div className="hidden lg:flex items-center gap-6 text-xs font-medium text-gray-700">
+        <div className="hidden lg:flex items-center gap-4 xl:gap-5 text-xs font-medium text-gray-700">
           <div className="flex items-center gap-2">
             <div className="w-8 h-8 rounded-full bg-[#EBF2FF] flex items-center justify-center text-[#0B3996]">
               <ShieldCheck className="w-4 h-4" />
@@ -60,6 +60,13 @@ export const Header: React.FC<HeaderProps> = ({ onQuoteClick, onPackageSelect })
               ))}
             </div>
             <span className="text-[10px] font-semibold text-gray-600 ml-0.5">Google Rating</span>
+          </div>
+
+          <div className="h-8 w-[1px] bg-gray-200"></div>
+
+          <div className="flex items-center gap-2 bg-[#EBF2FF]/80 px-2.5 py-1.5 rounded-lg border border-[#0B3996]/20">
+            <span className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse shrink-0" />
+            <span className="font-bold text-[#0B3996] text-xs whitespace-nowrap">Mumbai's Trusted Kerala Partner</span>
           </div>
         </div>
 
