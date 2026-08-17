@@ -17,7 +17,7 @@ export const PACKAGES: PackageItem[] = [
     locations: ["Munnar (2N)", "Thekkady (1N)", "Alleppey (1N)"],
     price: 14999,
     originalPrice: 18999,
-    image: "https://images.unsplash.com/photo-1593693397690-362cb9666fc2?auto=format&fit=crop&w=800&q=80",
+    image: "https://images.unsplash.com/photo-1628151016259-3a3f01955bf0?auto=format&fit=crop&w=800&q=80",
     highlights: [
       "2 Nights in scenic Munnar Hill Station",
       "Periyar Wildlife Sanctuary in Thekkady",
@@ -36,7 +36,7 @@ export const PACKAGES: PackageItem[] = [
     locations: ["Munnar (2N)", "Thekkady (1N)", "Alleppey (1N)", "Kovalam (1N)"],
     price: 17999,
     originalPrice: 22499,
-    image: "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?auto=format&fit=crop&w=800&q=80",
+    image: "https://images.unsplash.com/photo-1557050543-4d5f4e07ef46?auto=format&fit=crop&w=800&q=80",
     highlights: [
       "Munnar Tea Gardens & Waterfalls",
       "Thekkady Spice Plantations & Boat Safari",

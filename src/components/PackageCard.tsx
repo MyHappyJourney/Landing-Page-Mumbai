@@ -46,12 +46,6 @@ export const PackageCard: React.FC<PackageCardProps> = ({ pkg, onViewDetails, on
         />
         <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent" />
         
-        {/* Top-Right Speed Badge */}
-        <div className="absolute top-3 right-3 bg-white/95 backdrop-blur-xs text-emerald-900 text-[10px] font-extrabold px-2.5 py-1 rounded-full shadow-sm border border-emerald-200/80 flex items-center gap-1 z-10">
-          <Zap className="w-3 h-3 text-emerald-600 fill-emerald-600 animate-pulse" />
-          <span>Get quote in 10 minutes</span>
-        </div>
-
         {/* Duration Badge */}
         <div className="absolute bottom-3 left-3 bg-[#0B3996] text-white text-xs font-black px-3 py-1 rounded-md shadow-md uppercase tracking-wider">
           {pkg.durationBadge}

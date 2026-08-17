@@ -216,7 +216,7 @@ export const QuoteModal: React.FC<QuoteModalProps> = ({
                   className="w-full h-11 bg-[#25D366] hover:bg-[#20bd5a] text-white font-extrabold rounded-xl flex items-center justify-center gap-2 shadow-md hover:shadow-lg transition-all text-xs sm:text-sm"
                 >
                   <WhatsAppIcon className="w-4 h-4 fill-white" />
-                  <span>WhatsApp Us Now for Instant Reply</span>
+                  <span>आत्ताच व्हॉट्सॲप करा</span>
                 </a>
 
                 <button
