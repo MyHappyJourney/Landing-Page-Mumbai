@@ -281,43 +281,43 @@ export const REVIEWS: Review[] = [
 export const FAQS: FAQItem[] = [
   {
     id: "faq-1",
-    question: "What is included in this package?",
-    answer: "Our standard Kerala tour package includes handpicked hotel/resort accommodations, daily breakfast, a private AC cab with dedicated driver for all sightseeing & transfers, a private houseboat stay in Alleppey with all meals (lunch, dinner, breakfast), toll taxes, driver allowance, and 24x7 local travel support."
+    question: "Which airport should we book our flights to from Mumbai / Pune?",
+    answer: "For most Kerala itineraries starting in Munnar, we recommend booking your onward flight from Mumbai (BOM) or Pune to Cochin International Airport (COK). For packages including Kovalam/Kanyakumari, you can book your return flight from Trivandrum (TRV) to avoid extra road travel. Our team guides you on the best arrival and departure timings to match your itinerary perfectly."
   },
   {
     id: "faq-2",
-    question: "Is this package customizable?",
-    answer: "Yes, 100%! All our packages can be fully customized according to your arrival point (Cochin or Trivandrum), travel dates, budget preference, hotel categories (3-Star, 4-Star, or Luxury Resorts), and specific places you wish to visit."
+    question: "Is North Indian, Pure Vegetarian, or Jain food easily available for Mumbai families?",
+    answer: "Absolutely! We ensure all partner hotels and resorts have excellent North Indian and Pure Veg options. If you require pure Jain meals (no onion, no garlic), simply inform our team during booking—our private houseboat chefs and partner restaurants will prepare customized Jain / vegetarian meals for your family."
   },
   {
     id: "faq-3",
-    question: "What kind of vehicle will be provided?",
-    answer: "We provide dedicated, clean, private AC vehicles based on your group size: Sedan (Swift Dzire/Etios) for 2-3 guests, SUV (Innova/Ertiga) for 4-6 guests, and Tempo Traveller for groups of 7 or more. The vehicle remains exclusively with your family throughout the tour."
+    question: "Can we get travel consultation and assistance in Hindi or Marathi?",
+    answer: "Yes! Our holiday coordinators speak fluent Hindi, Marathi, and English. You will receive dedicated WhatsApp and call support throughout your journey from your initial enquiry in Mumbai until you safely return home."
   },
   {
     id: "faq-4",
-    question: "Are flights included?",
-    answer: "Airfare / train tickets are generally not included in the standard base package price, but our travel experts can easily assist you in booking flight or train tickets from your city at competitive prices upon request."
+    question: "What is included in the Kerala land package?",
+    answer: "Your package includes handpicked 3-Star/4-Star hotel stays, daily breakfast, a dedicated private AC car (Dzire / Ertiga / Innova / Tempo Traveller) with an experienced chauffeur for all sightseeing & transfers, a private Alleppey houseboat cruise with all meals, driver allowances, toll taxes, and 24x7 helpline assistance."
   },
   {
     id: "faq-5",
-    question: "What is the best time to visit Kerala?",
-    answer: "Kerala is a year-round destination! September to March offers pleasant weather ideal for hill stations, wildlife, and beaches. Monsoons (June to August) are world-famous for lush greenery and Ayurvedic wellness treatments."
+    question: "Do you provide airport pickup directly when our Mumbai flight lands?",
+    answer: "Yes! Your private chauffeur will be waiting right outside the arrival terminal at Cochin International Airport (COK) or Trivandrum (TRV) with a personalized name placard, ready to load your luggage into a sanitized, air-conditioned vehicle."
   },
   {
     id: "faq-6",
-    question: "Is the houseboat stay private?",
-    answer: "Yes, absolutely! The houseboat provided in your package is 100% private with air-conditioned bedrooms, attached bathrooms, a private sitting deck, and a dedicated crew (captain, chef, and guide) serving fresh authentic Kerala cuisine."
+    question: "Is this tour package suitable for senior citizens and young kids?",
+    answer: "100%! We customize itineraries with comfortable driving stretches, minimal fatigue, ground-floor/lift-accessible deluxe rooms, and relaxed sightseeing schedules so that elders and children enjoy a hassle-free holiday."
   },
   {
     id: "faq-7",
-    question: "What is your cancellation policy?",
-    answer: "We offer guest-friendly, flexible cancellation policies. Depending on how far in advance you cancel prior to your travel date, partial or full refunds are processed promptly. Full details are provided in your booking voucher."
+    question: "Is the Alleppey houseboat 100% private for our family?",
+    answer: "Yes, completely private! You will have an exclusive air-conditioned houseboat with private bedrooms, attached modern bathrooms, a scenic front deck, and a dedicated 3-member crew (captain, engine driver, and personal chef) catering exclusively to your family."
   },
   {
     id: "faq-8",
-    question: "Do you provide airport pickup and drop?",
-    answer: "Yes, seamless door-to-door airport/railway station pickup and drop are included. Usually pickup is from Cochin International Airport (COK) and drop at Trivandrum International Airport (TRV), or vice versa according to your route."
+    question: "How do Mumbai clients book and what is the payment schedule?",
+    answer: "Booking is simple and 100% secure: pay a nominal advance token to lock your preferred hotels and houseboat, receive an instant GST invoice & booking confirmation voucher on WhatsApp/email, and pay the remaining balance comfortably upon arrival in Kerala."
   }
 ];
 
